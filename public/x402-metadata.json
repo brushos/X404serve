@@ -1,0 +1,28 @@
+{
+  "name": "404",
+  "token": "404",
+  "type": "resource",
+  "standard": "x402",
+  "version": "1.0.0",
+  "description": "Meme 404 server that responds with 402 Payment Required. Glitchy but funny. x402-compliant resource server.",
+  "homepage": "https://x404-server.vercel.app",
+  "documentation": "https://x404-server.vercel.app",
+  "endpoints": {
+    "resource": "/api/resource"
+  },
+  "authentication": {
+    "type": "header",
+    "header": "x-resource-secret",
+    "value": "404"
+  },
+  "paymentRequirements": {
+    "currency": "memes",
+    "amount": "1 good laugh",
+    "description": "Payment required to unlock the legendary 404 token"
+  },
+  "metadata": {
+    "author": "404 Meme Server",
+    "created": "2025-10-25",
+    "tags": ["x402", "payment-required", "meme", "glitch", "404"]
+  }
+}
