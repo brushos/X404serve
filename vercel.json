@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "env": {
+    "RESOURCE_SECRET": {
+      "description": "Secret token for accessing the 404 resource",
+      "default": "404"
+    },
+    "PAYMENT_REQUIRED_TEXT": {
+      "description": "Custom message for payment required response",
+      "default": "Payment required to access 404 resource"
+    }
+  }
+}
